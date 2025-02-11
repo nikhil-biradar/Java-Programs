@@ -1,4 +1,4 @@
-package exception_handling;
+package exception_handling.exception_programs;
 
 public class TryCatchFinally {
     public static void main(String[] args) {
