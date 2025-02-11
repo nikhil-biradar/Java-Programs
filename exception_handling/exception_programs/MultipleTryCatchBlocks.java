@@ -1,4 +1,4 @@
-package exception_handling;
+package exception_handling.exception_programs;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -16,7 +16,11 @@ public class MultipleTryCatchBlocks {
             System.out.println("Division is : " + num3);
 
 
-        }catch(ArithmeticException ae){
+        }catch(NullPointerException | ArrayIndexOutOfBoundsException ae){
+            System.out.println("Number cannot be divided by zero !");
+            System.out.println("Exception Thrown : " + ae);
+        }
+        catch(ArithmeticException ae){
             System.out.println("Number cannot be divided by zero !");
             System.out.println("Exception Thrown : " + ae);
         }
@@ -24,5 +28,6 @@ public class MultipleTryCatchBlocks {
             System.out.println("Invalid Data Types are entered !");
             System.out.println("Exception Thrown : " + ime);
         }
+        System.out.println("End of Program");
     }
 }

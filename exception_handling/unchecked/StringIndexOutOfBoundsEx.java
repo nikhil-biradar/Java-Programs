@@ -4,8 +4,15 @@ public class StringIndexOutOfBoundsEx {
     public static void main(String[] args) {
 
         String s = "Nikhil";
-        for(int i = 0; i <= s.length(); i++){
-            System.out.println(i);
+
+        //Exception Occurs
+//        System.out.println(s.charAt(9));
+
+        //Exception Handled
+        try{
+            System.out.println(s.charAt(9));
+        }catch(StringIndexOutOfBoundsException se){
+            System.out.println("Entered index is not found");
         }
     }
 }
