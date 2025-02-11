@@ -5,6 +5,7 @@ public class InterruptedEx {
 
         System.out.println("Java Technology");
 
+
         //Exception Occured
 //        Thread.sleep(1000);
 
