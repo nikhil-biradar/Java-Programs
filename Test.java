@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 class Test {
     public static void main(String[] args) {
+        try{
+            System.out.println("Try Block");
+            System.exit(0);
+            System.gc();
+        }finally{
+            System.out.println("Catch Block");
+        }
     }
 }
 
@@ -17,7 +24,7 @@ public class Test {
 
         System.out.println(s1.compareTo(s2));
         System.out.println(s1.compareTo(s3));
-        System.out.println(s1.compareTo(s4));
+        System.out.println(s1.compareTo(s4));catch
         System.out.println(s4.compareTo(s5));
     }
 }
