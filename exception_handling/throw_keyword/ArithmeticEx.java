@@ -1,4 +1,4 @@
-package exception_handling.throwkeyword;
+package exception_handling.throw_keyword;
 
 public class ArithmeticEx {
     public static void main(String[] args) {
