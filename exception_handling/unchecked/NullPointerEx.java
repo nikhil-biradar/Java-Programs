@@ -1,9 +1,23 @@
 package exception_handling.unchecked;
 
 public class NullPointerEx {
+
+    void show(){
+        System.out.println("Show Method");
+    }
+
+    void m1(){
+        System.out.println("m1 Method");    
+    }
+
     public static void main(String[] args) {
 
-        String s = null;
-        System.out.println(s.length());
+        NullPointerEx npe = null;
+
+        if(npe == null){
+            npe = new NullPointerEx();
+            npe.show();
+        }
+        npe.m1();
     }
 }
