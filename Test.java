@@ -1,5 +1,15 @@
 import java.util.Scanner;
 
+public class Test {
+    public static void main(String[] args) {
+
+        String s1 = "Java is a language";
+
+    }
+}
+
+//Finally doesn't execute
+/*
 class Test {
     public static void main(String[] args) {
         try{
@@ -11,6 +21,8 @@ class Test {
         }
     }
 }
+*/
+
 
 /*
 public class Test {
