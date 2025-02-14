@@ -1,11 +1,12 @@
 package collections;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Vector;
 
 public class ArrayLists {
     public static void main(String[] args) {
 
-        ArrayList <String> list = new ArrayList<>();
+        List<String> list = new ArrayList<>();
         list.add("Nitin"); //Added elements to list
         list.add("Sonali");
         list.add("Ashish");
