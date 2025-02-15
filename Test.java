@@ -1,12 +1,15 @@
 import java.util.Scanner;
 
+/*
+//Exception in double data type
 public class Test {
     public static void main(String[] args) {
 
-        String s1 = "Java is a language";
-
+        float d = 0/0.0f;
+        System.out.println(d);
     }
 }
+*/
 
 //Finally doesn't execute
 /*
