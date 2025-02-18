@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+public class Test {
+    public static void main(String[] args) {
+            int y = 0/0;
+        System.out.println(y);
+    }
+}
+
 /*
 //Exception in double data type
 public class Test {
