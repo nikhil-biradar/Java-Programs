@@ -1,4 +1,4 @@
-package string.string_programs;
+package exception_handling.practice_programs;
 
 public class Test {
     public static void main(String[] args) {

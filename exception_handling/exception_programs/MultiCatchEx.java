@@ -7,10 +7,10 @@ public class MultiCatchEx {
         try{
             int c = a[3]/0;
 
-        }catch (ArithmeticException e) {
+        }catch (ArrayIndexOutOfBoundsException e) {
             System.out.println(e.getMessage());
 
-        }catch (ArrayIndexOutOfBoundsException e) {
+        }catch (ArithmeticException e) {
             System.out.println(e.getMessage());
 
         }catch (Exception e) {
