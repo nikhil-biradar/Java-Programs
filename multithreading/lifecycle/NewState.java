@@ -8,6 +8,8 @@ public class NewState extends Thread {
 
         System.out.println(obj.getState());
 
+        t.start
+
     }
 
     @Override
