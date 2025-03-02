@@ -7,7 +7,6 @@ public class NewState extends Thread {
         Thread t = new Thread(obj);
 
         System.out.println(obj.getState());
-
     }
 
     @Override
