@@ -7,6 +7,6 @@ public class DoWhileLoop {
         do{
             System.out.println("Hi " + i);
             i++;
-        }while(i <= 10);
+        }while(i <= 20);
     }
 }
