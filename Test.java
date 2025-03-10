@@ -1,6 +1,18 @@
 import java.util.Scanner;
 
-public class Test extends Thread {
+public class Test {
+    public static void main(String[] args) {
+        String s1 = "java";
+        String s2 = "java";
+        s1 = "text";
+
+        System.out.println(s1);
+        System.out.println(s1 == s2);
+        System.out.println(s1 == s2);
+    }
+}
+
+/*public class Test extends Thread {
     public static void main(String[] args) throws InterruptedException {
         Test thread1 = new Test();
         thread1.setName("Ramesh");
@@ -17,7 +29,6 @@ public class Test extends Thread {
 
         thread3.start();
 
-
     }
 
     @Override
@@ -28,7 +39,7 @@ public class Test extends Thread {
             }
         }
     }
-}
+}*/
 
 
 /*
