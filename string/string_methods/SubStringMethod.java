@@ -12,7 +12,6 @@ public class SubStringMethod {
 
         //Example 1
         String s1 = new String("SachinTendulkar");
-        s1.substring(5);
         System.out.println(s1);
         System.out.println(s1.substring(5));
 
