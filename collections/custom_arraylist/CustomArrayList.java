@@ -45,6 +45,15 @@ public class CustomArrayList<O> {
         return removedElement;
     }
 
+    public Object remove(Object o){
+        for(int i = 0; i < arr.length; i++){
+            if(arr[i] == o){
+                remove(i);
+            }
+        }
+        return o;
+    }
+
 
     //Ensure Capacity Method
     private void ensureCapacity(){
@@ -52,40 +61,11 @@ public class CustomArrayList<O> {
         arr = Arrays.copyOf(arr, newCapacity);
     }
 
-
     //Display Method
     public void display(){
         System.out.print("Displaying List : ");
         for(int i = 0; i < size; i++){
             System.out.print(arr[i] + "  ");
         }
-    }
-}
-
-
-class CustomArraylistApp {
-    public static void main(String... a) {
-        CustomArrayList <Integer> list = new CustomArrayList<>();
-
-        //Add elememts in Custom Arraylist
-        list.add(10);
-        list.add(20);
-        list.add("Nikhil");
-        list.add(2.5f);
-        list.add(2000L);
-        list.add('A');
-
-
-        //Display all elements in Custom ArrayList
-        list.display();
-
-        //Display specific element in Custom Arraylist
-        System.out.println("\nDisplaying element at index " + 1 + " is : " + list.get(1));
-
-        //Remove specific element in Custom Arraylist
-        System.out.println("Element removed from index " + 1 + " is : " + list.remove(1));
-
-        list.display();
-
     }
 }
