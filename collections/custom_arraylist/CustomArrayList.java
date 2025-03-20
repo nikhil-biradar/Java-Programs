@@ -2,7 +2,7 @@ package collections.custom_arraylist;
 
 import java.util.Arrays;
 
-class CustomArrayList<O> {
+public class CustomArrayList<O> {
 
     private int size = 0;
     private Object arr [] = {};
@@ -57,13 +57,13 @@ class CustomArrayList<O> {
     public void display(){
         System.out.print("Displaying List : ");
         for(int i = 0; i < size; i++){
-            System.out.print(arr[i] + " ");
+            System.out.print(arr[i] + "  ");
         }
     }
 }
 
 
-public class CustomArraylistApp {
+class CustomArraylistApp {
     public static void main(String... a) {
         CustomArrayList <Integer> list = new CustomArrayList<>();
 

@@ -1,8 +1,19 @@
+import collections.custom_arraylist.CustomArrayList;
+
 import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
+        CustomArrayList<Integer> list1 = new CustomArrayList<>();
 
+        list1.add(2);
+        list1.add("Nikhil");
+        list1.add(20.2f);
+        list1.add(20L);
+        list1.add(true);
+        list1.add(false);
+
+        list1.display();
     }
 }
 
