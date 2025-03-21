@@ -41,11 +41,10 @@ public class CustomArrayList<O> {
             arr[i] = arr[i + 1];
         }
         size --;
-
         return removedElement;
     }
 
-    public Object remove(Object o){
+    public Object removeByObj(Object o){
         for(int i = 0; i < arr.length; i++){
             if(arr[i] == o){
                 remove(i);
@@ -53,7 +52,6 @@ public class CustomArrayList<O> {
         }
         return o;
     }
-
 
     //Ensure Capacity Method
     private void ensureCapacity(){
